@@ -32,108 +32,777 @@
         </nav>
     </header>
     <main>
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/slide3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/slide.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="./img/slide2.webp" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Próximo</span>
-            </button>
-          </div>
-
-          <!--Cartão-->
-          <div class="countainer p-4" style="background-color: rgb(185, 208, 238);">
-            <h2 style="text-align: center;">Projetos em destaque</h2>
-
-            <!--cartões-->
-          <div class="card" style="width: 20em; margin: 1em;">
+<!-- Carousel -->
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/slide3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/slide.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/slide2.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+  
+  <!-- Seção de Projetos -->
+  <div class="countainer p-4" style="background-color: rgb(185, 208, 238);">
+    <h2 style="text-align: center;">Projetos em destaque</h2>
+  
+    <!--
+        <div class="card-group">
+            <div class="card">
             <img src="./img/slide.jpg" class="card-img-top">
             <div class="card-body">
                 <h4 class="card-title" style="text-align: center;">Planta casa</h4>
                 <div class="row p-3 border-top align-items-center">
-                    <div class="col-auto">
-                        <div class="me-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2m" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
-                                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
-                              </svg>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                <div class="col-auto">
+                    <div class="me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2m" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                    </svg>
                     </div>
                 </div>
+                <div class="col">
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                </div>
+                </div>
                 
-                <!-- Features Section -->
+                
                 <div class="row text-center py-3">
-                    <!-- Lot Dimensions -->
-                    <div class="col">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-aspect-ratio" viewBox="0 0 16 16">
-                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"/>
-                            <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"/>
-                          </svg>
-                        <div class="feature-value">15x30</div>
-                    </div>
-                    
-                    <!-- Bedrooms -->
-                    <div class="col">
-                        <img src="./img/double-bed.png" alt="dormitorios" style="max-width: 1.5em; height: auto;">
-                        <div class="feature-value">3</div>
-                    </div>
-                    
-                    <!-- Parking -->
-                    <div class="col">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
-                            <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
-                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
-                          </svg>
-                        <div class="feature-value">3</div>
-                    </div>
-                    
-                    <!-- Bathrooms -->
-                    <div class="col">
-                        <img src="./img/toilet.png" alt="Banheiros" style="max-width: 1.5em;">
-                        <div class="feature-value">5</div>
-                    </div>
+                
+                <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-aspect-ratio" viewBox="0 0 16 16">
+                    <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"/>
+                    <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"/>
+                    </svg>
+                    <div class="feature-value">15x30</div>
+                </div>
+                
+               
+                <div class="col">
+                    <img src="./img/double-bed.png" alt="dormitorios" style="max-width: 1.5em; height: auto;">
+                    <div class="feature-value">3</div>
+                </div>
+                
+                
+                <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
+                    <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
+                    <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
+                    </svg>
+                    <div class="feature-value">3</div>
+                </div>
+                
+                
+                <div class="col">
+                    <img src="./img/toilet.png" alt="Banheiros" style="max-width: 1.5em;">
+                    <div class="feature-value">5</div>
+                </div>
+                </div>
             </div>
             <div class="card-footer" style="text-align: center;">
                 compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
             </div>
-          </div>
+            </div>
 
+            <div class="card">
+                <img src="./img/slide.jpg" class="card-img-top">
+                <div class="card-body">
+                <h4 class="card-title" style="text-align: center;">Planta casa</h4>
+                <div class="row p-3 border-top align-items-center">
+                    <div class="col-auto">
+                    <div class="me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2m" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                        </svg>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                    </div>
+                </div>
+                
+                
+                <div class="row text-center py-3">
+                    
+                    <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-aspect-ratio" viewBox="0 0 16 16">
+                        <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"/>
+                        <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"/>
+                    </svg>
+                    <div class="feature-value">15x30</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <img src="./img/double-bed.png" alt="dormitorios" style="max-width: 1.5em; height: auto;">
+                    <div class="feature-value">3</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
+                        <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
+                        <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
+                    </svg>
+                    <div class="feature-value">3</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <img src="./img/toilet.png" alt="Banheiros" style="max-width: 1.5em;">
+                    <div class="feature-value">5</div>
+                    </div>
+                </div>
+                </div>
+                <div class="card-footer" style="text-align: center;">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/slide.jpg" class="card-img-top">
+                <div class="card-body">
+                <h4 class="card-title" style="text-align: center;">Planta casa</h4>
+                <div class="row p-3 border-top align-items-center">
+                    <div class="col-auto">
+                    <div class="me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2m" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                        </svg>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                    </div>
+                </div>
+                
+                
+                <div class="row text-center py-3">
+                    
+                    <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-aspect-ratio" viewBox="0 0 16 16">
+                        <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"/>
+                        <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"/>
+                    </svg>
+                    <div class="feature-value">15x30</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <img src="./img/double-bed.png" alt="dormitorios" style="max-width: 1.5em; height: auto;">
+                    <div class="feature-value">3</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
+                        <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
+                        <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
+                    </svg>
+                    <div class="feature-value">3</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <img src="./img/toilet.png" alt="Banheiros" style="max-width: 1.5em;">
+                    <div class="feature-value">5</div>
+                    </div>
+                </div>
+                </div>
+                <div class="card-footer" style="text-align: center;">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/slide.jpg" class="card-img-top">
+                <div class="card-body">
+                <h4 class="card-title" style="text-align: center;">Planta casa</h4>
+                <div class="row p-3 border-top align-items-center">
+                    <div class="col-auto">
+                    <div class="me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2m" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                        </svg>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                    </div>
+                </div>
+                
+                
+                <div class="row text-center py-3">
+                    
+                    <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-aspect-ratio" viewBox="0 0 16 16">
+                        <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"/>
+                        <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"/>
+                    </svg>
+                    <div class="feature-value">15x30</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <img src="./img/double-bed.png" alt="dormitorios" style="max-width: 1.5em; height: auto;">
+                    <div class="feature-value">3</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
+                        <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
+                        <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
+                    </svg>
+                    <div class="feature-value">3</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <img src="./img/toilet.png" alt="Banheiros" style="max-width: 1.5em;">
+                    <div class="feature-value">5</div>
+                    </div>
+                </div>
+                </div>
+                <div class="card-footer" style="text-align: center;">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/slide.jpg" class="card-img-top">
+                <div class="card-body">
+                <h4 class="card-title" style="text-align: center;">Planta casa</h4>
+                <div class="row p-3 border-top align-items-center">
+                    <div class="col-auto">
+                    <div class="me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2m" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                        </svg>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                    </div>
+                </div>
+                
+                
+                <div class="row text-center py-3">
+                    
+                    <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-aspect-ratio" viewBox="0 0 16 16">
+                        <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"/>
+                        <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"/>
+                    </svg>
+                    <div class="feature-value">15x30</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <img src="./img/double-bed.png" alt="dormitorios" style="max-width: 1.5em; height: auto;">
+                    <div class="feature-value">3</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
+                        <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
+                        <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
+                    </svg>
+                    <div class="feature-value">3</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <img src="./img/toilet.png" alt="Banheiros" style="max-width: 1.5em;">
+                    <div class="feature-value">5</div>
+                    </div>
+                </div>
+                </div>
+                <div class="card-footer" style="text-align: center;">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/slide.jpg" class="card-img-top">
+                <div class="card-body">
+                <h4 class="card-title" style="text-align: center;">Planta casa</h4>
+                <div class="row p-3 border-top align-items-center">
+                    <div class="col-auto">
+                    <div class="me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2m" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                        </svg>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                    </div>
+                </div>
+                
+                
+                <div class="row text-center py-3">
+                   
+                    <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-aspect-ratio" viewBox="0 0 16 16">
+                        <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"/>
+                        <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"/>
+                    </svg>
+                    <div class="feature-value">15x30</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <img src="./img/double-bed.png" alt="dormitorios" style="max-width: 1.5em; height: auto;">
+                    <div class="feature-value">3</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
+                        <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
+                        <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
+                    </svg>
+                    <div class="feature-value">3</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <img src="./img/toilet.png" alt="Banheiros" style="max-width: 1.5em;">
+                    <div class="feature-value">5</div>
+                    </div>
+                </div>
+                </div>
+                <div class="card-footer" style="text-align: center;">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./img/slide.jpg" class="card-img-top">
+                <div class="card-body">
+                <h4 class="card-title" style="text-align: center;">Planta casa</h4>
+                <div class="row p-3 border-top align-items-center">
+                    <div class="col-auto">
+                    <div class="me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2m" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                        </svg>
+                    </div>
+                    </div>
+                    <div class="col">
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                    </div>
+                </div>
+                
+                
+                <div class="row text-center py-3">
+                    
+                    <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-aspect-ratio" viewBox="0 0 16 16">
+                        <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"/>
+                        <path d="M2 4.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H3v2.5a.5.5 0 0 1-1 0zm12 7a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H13V8.5a.5.5 0 0 1 1 0z"/>
+                    </svg>
+                    <div class="feature-value">15x30</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <img src="./img/double-bed.png" alt="dormitorios" style="max-width: 1.5em; height: auto;">
+                    <div class="feature-value">3</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-car-front" viewBox="0 0 16 16">
+                        <path d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0m10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17s2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276"/>
+                        <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679q.05.242.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.8.8 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.8.8 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155s4.037-.084 5.592-.155A1.48 1.48 0 0 0 15 9.611v-.413q0-.148-.03-.294l-.335-1.68a.8.8 0 0 0-.43-.563 1.8 1.8 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3z"/>
+                    </svg>
+                    <div class="feature-value">3</div>
+                    </div>
+                    
+                    
+                    <div class="col">
+                    <img src="./img/toilet.png" alt="Banheiros" style="max-width: 1.5em;">
+                    <div class="feature-value">5</div>
+                    </div>
+                </div>
+                </div>
+                <div class="card-footer" style="text-align: center;">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+                </div>
+            </div>
         </div>
+    </div>
+-->
+          <div class="card-container">
+            <!-- Card 1 -->
+            <div class="card">
+              <img src="./img/slide.jpg" alt="Imagem da casa" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Planta casa</h4>
+                <div class="row border-top">
+                  <div style="display: flex; align-items: center;">
+                    <span class="emoji" style="margin-right: 10px;">🏠</span>
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                  </div>
+                </div>
+                
+                <div class="feature-row">
+                  <div class="feature-item">
+                    <span class="emoji">📏</span>
+                    <div class="feature-value">15x30</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🛏️</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚗</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚽</span>
+                    <div class="feature-value">5</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+              </div>
+            </div>
+      
+            <!-- Card 2 -->
+            <div class="card">
+              <img src="./img/slide.jpg" alt="Imagem da casa" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Planta casa</h4>
+                <div class="row border-top">
+                  <div style="display: flex; align-items: center;">
+                    <span class="emoji" style="margin-right: 10px;">🏠</span>
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                  </div>
+                </div>
+                
+                <div class="feature-row">
+                  <div class="feature-item">
+                    <span class="emoji">📏</span>
+                    <div class="feature-value">15x30</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🛏️</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚗</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚽</span>
+                    <div class="feature-value">5</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+              </div>
+            </div>
+      
+            <!-- Card 3 -->
+            <div class="card">
+              <img src="./img/slide.jpg" alt="Imagem da casa" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Planta casa</h4>
+                <div class="row border-top">
+                  <div style="display: flex; align-items: center;">
+                    <span class="emoji" style="margin-right: 10px;">🏠</span>
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                  </div>
+                </div>
+                
+                <div class="feature-row">
+                  <div class="feature-item">
+                    <span class="emoji">📏</span>
+                    <div class="feature-value">15x30</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🛏️</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚗</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚽</span>
+                    <div class="feature-value">5</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+              </div>
+            </div>
+      
+            <!-- Card 4 -->
+            <div class="card">
+              <img src="./img/slide.jpg" alt="Imagem da casa" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Planta casa</h4>
+                <div class="row border-top">
+                  <div style="display: flex; align-items: center;">
+                    <span class="emoji" style="margin-right: 10px;">🏠</span>
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                  </div>
+                </div>
+                
+                <div class="feature-row">
+                  <div class="feature-item">
+                    <span class="emoji">📏</span>
+                    <div class="feature-value">15x30</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🛏️</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚗</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚽</span>
+                    <div class="feature-value">5</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+              </div>
+            </div>
+      
+            <!-- Card 5 -->
+            <div class="card">
+              <img src="./img/slide.jpg" alt="Imagem da casa" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Planta casa</h4>
+                <div class="row border-top">
+                  <div style="display: flex; align-items: center;">
+                    <span class="emoji" style="margin-right: 10px;">🏠</span>
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                  </div>
+                </div>
+                
+                <div class="feature-row">
+                  <div class="feature-item">
+                    <span class="emoji">📏</span>
+                    <div class="feature-value">15x30</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🛏️</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚗</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚽</span>
+                    <div class="feature-value">5</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+              </div>
+            </div>
+      
+            <!-- Card 6 -->
+            <div class="card">
+              <img src="./img/slide.jpg" alt="Imagem da casa" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Planta casa</h4>
+                <div class="row border-top">
+                  <div style="display: flex; align-items: center;">
+                    <span class="emoji" style="margin-right: 10px;">🏠</span>
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                  </div>
+                </div>
+                
+                <div class="feature-row">
+                  <div class="feature-item">
+                    <span class="emoji">📏</span>
+                    <div class="feature-value">15x30</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🛏️</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚗</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚽</span>
+                    <div class="feature-value">5</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+              </div>
+            </div>
+      
+            <!-- Card 7 -->
+            <div class="card">
+              <img src="./img/slide.jpg" alt="Imagem da casa" class="card-img-top">
+              <div class="card-body">
+                <h4 class="card-title">Planta casa</h4>
+                <div class="row border-top">
+                  <div style="display: flex; align-items: center;">
+                    <span class="emoji" style="margin-right: 10px;">🏠</span>
+                    <span class="color-accent">Área da construção: <span class="fw-bold">335,17m²</span></span>
+                  </div>
+                </div>
+                
+                <div class="feature-row">
+                  <div class="feature-item">
+                    <span class="emoji">📏</span>
+                    <div class="feature-value">15x30</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🛏️</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚗</span>
+                    <div class="feature-value">3</div>
+                  </div>
+                  
+                  <div class="feature-item">
+                    <span class="emoji">🚽</span>
+                    <div class="feature-value">5</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                compre em até <strong>10x sem juros</strong><br>Parcele em até 12x
+              </div>
+            </div>
+          </div>
       </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <script src="./js/index.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const slider = document.querySelector('.card-container');
+          let isDown = false;
+          let startX;
+          let scrollLeft;
+    
+          // Eventos para mouse
+          slider.addEventListener('mousedown', (e) => {
+            isDown = true;
+            slider.classList.add('grabbing');
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+            // Previne seleção de texto durante o arrasto
+            e.preventDefault();
+          });
+    
+          slider.addEventListener('mouseleave', () => {
+            isDown = false;
+            slider.classList.remove('grabbing');
+          });
+    
+          slider.addEventListener('mouseup', () => {
+            isDown = false;
+            slider.classList.remove('grabbing');
+          });
+    
+          slider.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 2; // Velocidade de rolagem (multiplicador)
+            slider.scrollLeft = scrollLeft - walk;
+          });
+    
+          // Eventos para touch
+          slider.addEventListener('touchstart', (e) => {
+            isDown = true;
+            startX = e.touches[0].pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+          });
+    
+          slider.addEventListener('touchend', () => {
+            isDown = false;
+          });
+    
+          slider.addEventListener('touchcancel', () => {
+            isDown = false;
+          });
+    
+          slider.addEventListener('touchmove', (e) => {
+            if (!isDown) return;
+            const x = e.touches[0].pageX - slider.offsetLeft;
+            const walk = (x - startX) * 2;
+            slider.scrollLeft = scrollLeft - walk;
+            // Evita que a página role durante o arrasto horizontal
+            e.preventDefault();
+          });
+        });
+      </script>
 </body>
+
 </html>
