@@ -1,0 +1,66 @@
+/* Gerais */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.row{
+  margin:0;
+}
+
+.container{
+  padding: 70px 0;
+}
+
+p, li{
+  color: #444;
+  font-size: 14px;
+}
+
+/*Barra de navegaçãp*/
+header, .navbar{
+  background-color: #353D41;
+
+}
+
+#nav-container{
+  padding-top: 0;
+  padding-bottom: 0;
+
+}
+
+#logo{
+  width: 140px;
+  padding-left: 1rem;
+
+}
+
+.navbar-brand{
+  padding: 0;
+  color: #FFF;
+}
+
+.navbar-brand::hover{
+  color: white;
+}
+
+#navbar-links a{
+  color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding: 1rem .8rem;
+
+}
+
+/* Sider */
+.countainder-fluid{
+  padding: 0;
+
+}
+
+
+.carousel-inner img {
+  max-height: 75vh; /* Defina a altura máxima desejada em pixels */
+  width: auto; /* Para manter a proporção da imagem */
+  object-fit: cover; /* Para preencher o contêiner sem distorcer, cortando se necessário */
+}
