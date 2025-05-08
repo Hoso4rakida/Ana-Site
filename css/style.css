@@ -55,12 +55,16 @@ header, .navbar{
 /* Sider */
 .countainder-fluid{
   padding: 0;
-
 }
 
 
 .carousel-inner img {
-  max-height: 75vh; /* Defina a altura máxima desejada em pixels */
-  width: auto; /* Para manter a proporção da imagem */
-  object-fit: cover; /* Para preencher o contêiner sem distorcer, cortando se necessário */
+  max-height: 75vh;
+  width: auto;
+  object-fit: cover;
+}
+
+.card{
+  border-radius: 10px !important;
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
 }
