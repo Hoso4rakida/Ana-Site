@@ -59,8 +59,7 @@ header, .navbar{
 
 
 .carousel-inner img {
-  max-height: 75dvh;
-  width: auto;
+  height: 75dvh;
   object-fit: cover;
 }
 
