@@ -1,6 +1,7 @@
 /* Gerais */
 body{
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 .row{
@@ -9,6 +10,7 @@ body{
 
 .container{
   padding: 70px 0;
+  background-color: white;
 }
 
 p, li{
@@ -22,33 +24,9 @@ header, .navbar{
 
 }
 
-#nav-container{
-  padding-top: 0;
-  padding-bottom: 0;
-
-}
-
 #logo{
   width: 140px;
   padding-left: 1rem;
-
-}
-
-.navbar-brand{
-  padding: 0;
-  color: #FFF;
-}
-
-.navbar-brand::hover{
-  color: white;
-}
-
-#navbar-links a{
-  color: white;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link{
-  padding: 1rem .8rem;
 
 }
 
@@ -66,7 +44,7 @@ header, .navbar{
 .card{
   border-radius: 10px !important;
   box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.2);
-  width: 20em;
+  width: 20rem !important;
   margin: 1em;
 }
 
@@ -77,12 +55,8 @@ header, .navbar{
   font-family: Arial, sans-serif;
 }
 
-body {
-  overflow-x: hidden;
-}
 
 .container {
-  background-color: rgb(185, 208, 238);
   padding: 1rem;
   width: 100%;
 }
@@ -103,6 +77,13 @@ h2 {
   touch-action: pan-x;
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.card-countainer {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  justify-content: center; /* Centraliza os cards no eixo X */
 }
 
 .card-container::-webkit-scrollbar {
