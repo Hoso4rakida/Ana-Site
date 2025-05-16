@@ -40,7 +40,9 @@ header, .navbar{
   object-fit: cover;
 }
 
-
+.carousel-item > img {
+  filter: brightness(50%);
+}
 
 .card{
   border-radius: 10px !important;
